@@ -79,11 +79,13 @@ var options = {
 }
 
 // assign (extend) configuration file if exists.
-try{
-  let _config = require('./../testrpc.json');
-  options = Object.assign(options, _config);
-}catch(e){
-  console.log('No configuration `testrpc.json` found');
+if(argv.config){
+  try{
+    const _config = require(argv.config);
+    options = Object.assign(options, _config);
+  }catch(e){
+    console.log('No configuration `testrpc.json` found');
+  }
 }
 
 var fork_address;
