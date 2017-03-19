@@ -1,0 +1,19 @@
+{ "port": 8545,
+  "hostname": null,
+  "debug": null,
+  "seed": null,
+  "mnemonic": null,
+  "total_accounts": null,
+  "blocktime": null,
+  "gasPrice": null,
+  "gasLimit": null,
+  "accounts":
+   [ { "secretKey": "0x0ed5e2d0779f5f8d9f97560eda7f79e21974456f16336d8b3d3262c7c3296605",
+       "balance": "10000000000000000000" } ],
+  "unlocked_accounts": null,
+  "fork": false,
+  "network_id": null,
+  "verbose": null,
+  "secure": false,
+  "db_path": null
+}
